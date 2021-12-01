@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 990px){
+    .header{
+        height: 12.5vh;
+    }
+    .content{
+        margin-bottom: 10px;
+    }
+    .btn{
+        padding: 15px 25px 15px 25px;
+    }
+    .container{
+        display: block;
+    }
+    .static{
+        padding-top: 26px;
+    }
+    .static span{
+        padding-left:0px;
+    }
+    .links>*+*{
+        margin-left: 0px;
+    }
+    @media only screen and (max-width: 768px){
+        .column{
+            display: none;
+        }
+        .btn{
+            font-size: .75rem;
+            padding: 13px 21px;
+        }
+        .header{
+            height: 10.5vh;
+            padding: 10px 0;
+        }
+        .content{
+            margin: -0px 10px 0px 5px;
+        }
+        .nav-compnt{
+            margin: -10px 0px;
+        }
+        .container h1{
+            font-size: 2.2rem;
+
+        }
+    }
+    
+
+}

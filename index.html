@@ -20,37 +20,30 @@
     <div class="App">
       <!-- header component start here -->
       <header class="header">
-        <div class="nav">
-          <!-- the place for logo and content -->
-          <div class="nav-compnt">
-            <!-- header left component -->
-            <a href="#">
+        <div class="container-fluid">
+
+          <!-- Header left side  -->
+          
+          <div class="header__wrap">
+            <a class="logo" href="/">
               <span class="logo-img">
-              <svg
-                width="28"
-                height="28"
-                viewBox="0 0 28 28"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.56214 11.7658L13.9999 6.328L19.4403 11.7682L22.6043 8.60418L13.9999 0L5.39838 8.6016L8.56225 11.7656L8.56214 11.7658ZM0 14L3.1641 10.8354L6.32797 13.9993L3.16387 17.1634L0 14ZM8.56214 16.2345L13.9999 21.672L19.4402 16.2319L22.6059 19.3943L22.6043 19.3959L13.9999 28L5.39838 19.3984L5.3939 19.3939L8.56248 16.2342L8.56214 16.2345ZM21.6719 14.0013L24.836 10.8372L27.9999 14.0011L24.8359 17.1652L21.6719 14.0013Z"
-                  fill="#E5701B"
-                />
-                <path
-                  d="M17.209 13.9983H17.2103L14 10.7877L11.627 13.16L11.3544 13.4327L10.7922 13.9951L10.7877 13.9994L10.7922 14.004L14 17.2123L17.2106 14.0017L17.2121 13.9999L17.2092 13.9983"
-                  fill="#E5701B"
-                />
-              </svg>
-            </span>
-              <span class="column">
-                <h2>BNB HARVEST</h2>
-                <h5>Stack & Earn.</h5>
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.56214 11.7658L13.9999 6.328L19.4403 11.7682L22.6043 8.60418L13.9999 0L5.39838 8.6016L8.56225 11.7656L8.56214 11.7658ZM0 14L3.1641 10.8354L6.32797 13.9993L3.16387 17.1634L0 14ZM8.56214 16.2345L13.9999 21.672L19.4402 16.2319L22.6059 19.3943L22.6043 19.3959L13.9999 28L5.39838 19.3984L5.3939 19.3939L8.56248 16.2342L8.56214 16.2345ZM21.6719 14.0013L24.836 10.8372L27.9999 14.0011L24.8359 17.1652L21.6719 14.0013Z" fill="#E5701B"/>
+                  <path d="M17.209 13.9983H17.2103L14 10.7877L11.627 13.16L11.3544 13.4327L10.7922 13.9951L10.7877 13.9994L10.7922 14.004L14 17.2123L17.2106 14.0017L17.2121 13.9999L17.2092 13.9983" fill="#E5701B"/>
+                  </svg>
+              </span>
+              <span class="col">
+                <span class="h2">BNB HARVEST</span>
+                <span class="h5">Stake &amp; Earn.</span>
               </span>
             </a>
-            <!-- header right component -->
-            <div class="content">
-              <button class="btn">Connect Wallet</button>
+
+            <!-- Header right side  -->
+
+            <div class="header__right ">
+              <button href="" class="header-btn">
+                <span>Connect Wallet</span>
+              </button>
             </div>
           </div>
         </div>
@@ -58,18 +51,21 @@
       <!-- --------------header component end here------------ -->
 
       <!-- home component start here  -->
-      <div class="container "  data-aos="zoom-in" data-aos-once="true" data-aos-duration="6000">
-        <div class="card">
+      <div class="container1 "  data-aos="zoom-in" data-aos-once="true" data-aos-duration="6000">
+        <div class="card1">
+          <div class="col">
           <h1>971.91556 BNB</h1>
-          <h4>~ $596,484.02</h4>
+          <h4 class="h4">~ $596,484.02</h4>
           <h5>Total Deposited Value</h5>
         </div>
+       
         <ul class="static">
             <li>
-          <span> Total Referral Earnings </span>
-          <span id="spn"> 126.34902 BNB </span>
+          <span class="h5"> Total Referral Earnings </span>
+          <span class="h5"> 126.34902 BNB </span>
         </li>
         </ul>
+      </div>
       </div>
 
       <!-- icons section start here  -->
@@ -154,29 +150,29 @@
 
       <div class="dashboard">
         <div class="container1">
-          <h2 class="h2">DASHBOARD</h2>
+          <h2 class="h2" >DASHBOARD</h2>
           <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="6000">
           <div  class="card1">
             <div class="logo">
               <div class="logo-img">5%</div>
               <div class="col">
-                <h4 class="h4">Daily ROI</h4>
+                <h4>Daily ROI</h4>
                 <h6>Stake &amp; Earn.</h6>
               </div>
             </div>
             <div class="row">
               <div class="info-col">
-                <h5 class="h5">0.00000 BNB</h5>
+                <h5 >0.00000 BNB</h5>
                 <span class="small">~ $0.00</span>
                 <h6 class="h6">Total Deposit</h6>
               </div>
               <div class="info-col">
-                <h5 class="h5">0.00000 BNB</h5>
+                <h5 >0.00000 BNB</h5>
                 <span class="small">~ $0.00</span>
                 <h6 class="h6">Total Withdraw</h6>
               </div>
                 <div class="info-col">
-                  <h5 class="h5">0.00000 BNB</h5>
+                  <h5 >0.00000 BNB</h5>
                   <span class="small">~ $0.00</span>
                   <h6 class="h6">BNB to Harvest</h6>
                 </div>
@@ -228,7 +224,7 @@
                  <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="6000" class="card1">
                   <div class="col">
                     <div class="link-copy">
-                      <h5 class="h5">Your Personal Link:</h5>
+                      <h5>Your Personal Link:</h5>
                       <span class="link-copy--wrap " data-label="Copied">
                         <p class="area">Not Activated Yet!</p>
                         <button type="button" class="link-copy--btn">
@@ -261,11 +257,11 @@
                   </div>
                   <div class="row">
                     <div class="info-col">
-                      <h5 class="h5">0</h5>
+                      <h5 >0</h5>
                       <h6 class="h6">Invited Users</h6>
                     </div>
                     <div class="info-col">
-                      <h5 class="h5">0.00000 BNB</h5>
+                      <h5>0.00000 BNB</h5>
                       <span class="small">~ $0.00</span>
                       <h6 class="h6">Total Referral Earnings</h6>
                     </div>
@@ -276,7 +272,31 @@
 
             <!-- ---------Final section end here-----------  -->
 
+
+            <!-- Footer section start   -->
+
+            <footer class="footer">
+              <div class="container1">
+                <div class="footer__wrap ">
+                  <a class="logo certik">
+                    <img src="" alt="certik">
+                  </a>
+                    <a class="logo haze">
+                      <img src="./download.png" alt="haze crypto">
+                    </a>
+                      <a class="logo radar">
+                        <img src="./dap.png" alt="dappradar">
+                      </a>
+                    </div>
+                  </div>
+                </footer>
+
+                <!-- -------Footer section End---------  -->
+
+
     </div>
+
+    <!-- ----------------E N D-------------------  -->
 
     <script src="index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

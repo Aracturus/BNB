@@ -21,7 +21,7 @@ body:before {
   top: 0;
   width: 100%;
   height: 100vh;
-  background: /*radial-gradient(
+  background: radial-gradient(
       circle at 25% 0,
       rgba(187, 150, 254, 0.5),
       rgba(227, 255, 240, 0) 50%
@@ -31,8 +31,7 @@ body:before {
         rgba(187, 150, 254, 0.5),
         rgba(131, 165, 203, 0) 50%
       )
-      #334e77;*/
-      black
+      #334e77;
 }
 .App {
   overflow: hidden;
@@ -43,9 +42,7 @@ body:before {
 .header {
   padding: 16px 0;
   width: 100%;
-  backdrop-filter: blur(0px) saturate(0%);
-  -webkit-backdrop-filter: blur(0px) saturate(0%);
-  background-color: rgba(255, 255, 255, 0.15);
+  background: rgba(27,29,34,.25);
 }
 .header__wrap {
   display: flex;
@@ -86,33 +83,33 @@ body:before {
   align-items: center;
 }
 .header-btn, .header-btn span {
-  background: #e5701b;
+  background: linear-gradient(
+    135deg,#ffca43,#ff7347);
   transition: .2s ease-out;
 }
 .header-btn {
   border: none;
-  background: none;
+  /* background: none; */
   border-radius: 15px;
   padding: 6px;
 }
-
-
-
 .header-btn span {
   border-radius: 15px;
+  /* border: 6px solid #2C3A55; */
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 100%;
-  color: rgb(5, 5, 5);
-  background: linear-gradient(
-    135deg, #ffca43, #ff7347);
-        box-shadow: 0 0 30px rgb(255 159 69 / 30%);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: 100%;
   padding: 17px 31px;
 }
+.header-btn span:hover{
+  background: linear-gradient(
+    135deg,#ffc32b,#fd6436);
 
+}
 .container1, .container-fluid { 
   width: 100%;
   margin: 0 auto;
@@ -129,9 +126,6 @@ body:before {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  backdrop-filter: blur(0px) saturate(0%);
-    -webkit-backdrop-filter: blur(0px) saturate(0%);
-    background-color: rgba(255, 255, 255, 0.15);
 }
 .container1 .card1 ul {
   color: white;
@@ -227,7 +221,10 @@ a {
 .links-row .img {
   text-decoration: none;
   border-radius: 15px;
-  background: #404b75c4;
+  /* background: linear-gradient(
+    135deg,#ffca43,#ff7347); */
+    background: linear-gradient(
+    135deg,#b4b4b4,#616161);
   margin: 6px;
   padding: 18px 20px;
 }
@@ -304,12 +301,6 @@ span {
   transition: 0.2s ease-out;
   opacity: 0.5;
 }
-[type="button"],
-[type="reset"],
-[type="submit"],
-button {
-  -webkit-appearance: button;
-}
 .button-col {
   display: flex;
   flex-direction: column;
@@ -322,12 +313,14 @@ button {
   transition: 0.2s ease-out;
 }
 .button {
-  background: #5f2eea;
+  background: linear-gradient(
+135deg,#ffca43,#ff7347);
   border-radius: 12px;
-  border: 1px solid #5f2eea;
+  border: 1px solid #ffaf02;
 }
 .button:hover{
-    background: #673AEC;
+    background: linear-gradient(
+      135deg,#ffb90a,#ff5a28);;
 }
 .button-transparent:hover{
     background: none;
